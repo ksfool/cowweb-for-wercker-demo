@@ -20,7 +20,7 @@ spec:
         image: iad.ocir.io/handson190529/handson-013/cowweb:v1.0
         ports:
         - name: api
-          containerPort: 8993
+          containerPort: 8080
         readinessProbe:
           httpGet:
             path: /cowsay/ping
